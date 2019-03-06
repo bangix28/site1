@@ -1,0 +1,13 @@
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+	p
+	{
+		color: red;
+		background: blue;
+	}
+}

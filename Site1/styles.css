@@ -1,0 +1,217 @@
+html
+{
+	background-color: #D9DBD6;
+}
+.background
+{
+	margin-right: 330px;
+	margin-left: 330px;
+}
+
+ #titre
+{
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 25px;
+}
+header
+{
+	background: url(image/separateur.png) repeat-x bottom;
+
+
+}
+#bloc_page
+{
+  width: 1000px;
+  margin: auto;
+}
+nav
+{
+	display: inline-block;
+	text-align: center;
+	width: 900px;
+}
+nav ul
+{
+ list-style-type: none;
+ display: flex;
+}
+nav li
+{
+	margin-left:auto;
+	margin-right: auto;
+	float: left;
+
+}
+nav ul  li  a
+{
+ display: block;
+ float: left;
+ width: 110px;
+ background-color: #44C8CD;
+ color: black;
+ text-decoration: none;
+ text-align: center;
+ padding: 7px;
+ border: 1px solid;
+ border-radius: 3px;
+
+}
+nav a
+{
+	font-size: 1.3em;
+	padding: 4px;
+	text-decoration: none;
+	color: black;
+
+}
+.news
+{
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	text-align: center;
+	
+
+}
+article
+{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 25px;
+	width: 33.3%;
+	margin-top: 60px;
+
+}
+.article
+ {
+	width: 33%;
+	overflow: hidden;
+	margin-right: 45px;
+ }
+.article p
+{
+	max-width: 100%;
+	text-align: center;
+}
+footer
+{
+	background:url(image/separateur.png)repeat-x ;
+}
+.contacts
+{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+}
+a
+ {
+ 	text-decoration: none;
+ 	color: black;
+ }
+ .corps_page
+ {
+ 	width: 900px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+
+ }
+ #petite_categorie
+ {
+ 	color: grey;
+
+ }
+ .intro
+ {
+ 	font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    margin-top: 90px;
+    text-align: center;
+ }
+ #titre_categorie
+ {	font-family: 'Staatliches', cursive;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	margin-bottom: 50px;
+ 	margin-top: 80px;
+ }
+ .sous_Categorie
+ {
+ 	font-family: 'Staatliches', cursive;
+ 	color: #44C8CD;
+ 	margin-bottom: 45px;
+ 
+  }
+ .sous_Categorie h2 {
+    position: relative;
+    overflow: hidden;
+    font-size: 25px;
+}
+.sous_Categorie h2:after {
+    position: absolute;
+    top: 55%;
+    overflow: hidden;
+    width: 80%;
+    height: 5px;
+    content: '\a0';
+    background-color: #44C8CD;
+}
+.sous_Categorie_items
+{
+	font-size: 18px;
+}
+#searchbar
+{
+	background-color: #D9DBD6;
+	border-style: none;
+	border-width: 1px;
+	width: 150px;
+	float:right;
+}
+.search
+{
+	padding: 5px 10px 5px 10px;
+	width: 98.5%;
+	box-sizing: border-box;
+}
+.search-btn
+ {
+ 	background-color: #44C8CD;
+ 	border-style: solid;
+ 	border-radius: 2px;
+ 	border-width: 2px;
+ 	padding: 5px 10px 5px 10px;
+ 	width: 150px;
+ 	margin: auto;
+ 	box-sizing: border-box;
+ 	margin: 10px  0px 10px 0px;
+
+
+ }
+ #image_article
+ {
+ 	text-align: center;
+
+ }
+ .text_article
+  {
+ 	font-family: 'Staatliches', cursive;
+ 	font-size: 20px;
+  	margin-top: 10%;
+
+  }
+  .text_article p
+  {
+  	margin-bottom: 15px;
+  }
+  .debut
+  {
+  	color: red;
+
+  }
+  .espace 
+  {
+   margin-bottom: 600px;
+  }
